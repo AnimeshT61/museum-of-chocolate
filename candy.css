@@ -1,0 +1,63 @@
+body {
+ background-color: #150a03;
+ font-family: 'Nunito', sans-serif;
+}
+.navbar .navbar-brand{
+    color: #d2691e;
+    font-size: 1.3rem;
+    
+}
+.navbar {
+    font-weight: 100;
+    font-size: 1.3rem;
+    
+
+}
+#navbarSupportedContent .nav-link:hover{
+    color:#d2691e;
+    
+}
+#navbarSupportedContent .nav-link{
+    color: ivory;
+}
+h2{
+    color: ivory;
+}
+h2 span{
+    color:#d2691e ;
+}
+.img-fluid {
+   background-size: 100%;
+   min-width:100%;
+   
+}
+p{
+    color: ivory;
+    line-height: 2.5;
+}
+h1{
+    color:#d2691e ;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: orangered;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: orangered;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.navbar.scrolled{
+    background: black;
+    transition: background 1.2s;
+}
